@@ -1,0 +1,18 @@
+::ng-deep {
+  .ng-otp-input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    padding: 0 20px;
+    background-color: white;
+
+    span:last-child {
+      display: none;
+    }
+
+    .otp-input:not(:last-child) {
+      margin: 0 !important;
+    }
+  }
+}
